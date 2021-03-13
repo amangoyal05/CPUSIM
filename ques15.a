@@ -1,0 +1,10 @@
+Start:  read
+        jumpi 1 Done
+        add   1 x
+        store 1 x
+        jump  Start
+Done:   load  1 x
+        write
+        stop
+
+x: .data 2 0

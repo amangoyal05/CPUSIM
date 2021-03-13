@@ -1,0 +1,8 @@
+read
+store x
+read
+and x
+write
+stop
+
+x: .data 2 0

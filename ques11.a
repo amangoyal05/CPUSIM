@@ -1,0 +1,13 @@
+Start: read
+       jumpn   Done
+       add      x
+       store    x
+       jump     Start
+Done:  load     x
+       write
+       stop
+
+x: .data 2 0
+
+
+stop

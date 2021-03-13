@@ -1,0 +1,10 @@
+Start:  read
+        store x
+        read
+        isz     Done
+        divide x
+        write
+Done:   stop
+
+x: .data 2 0
+stop

@@ -1,0 +1,8 @@
+read
+store   1 82
+read
+store   1 298
+read
+add     1 298
+write
+stop
